@@ -1,0 +1,12 @@
+ACCESO DIRECTO PARA LA APLICACIÓN (instalable en el celular)
+
+1) Abre config.js con el Bloc de notas y cambia SOLO dos líneas:
+   - APP_URL: pega la URL de la aplicación web de Apps Script (termina en /exec).
+   - NOMBRE: el nombre que se verá bajo el ícono.
+2) Abre manifest.webmanifest con el Bloc de notas y cambia "name" y "short_name" por el mismo nombre.
+3) (Opcional) Reemplaza icon-192.png e icon-512.png por el logo del cliente (mismo nombre y tamaño).
+4) Sube TODOS los archivos a un sitio web gratuito con HTTPS (por ejemplo GitHub Pages).
+5) Abre la dirección del sitio en el celular:
+   - Android (Chrome): menú ⋮ > Instalar aplicación (o Añadir a la pantalla de inicio).
+   - iPhone (Safari): Compartir > Añadir a pantalla de inicio.
+Una carpeta (o un sitio) por cliente.
